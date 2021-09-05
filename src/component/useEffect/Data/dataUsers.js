@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const githubUsers = ({users}) => {
+const DataUsers = ({users}) => {
     return (
         <div className="container-fluid">
             <h2>List of Data from JSONplaceholder</h2>
@@ -29,4 +29,4 @@ const githubUsers = ({users}) => {
     )
 }
 
-export default githubUsers
+export default DataUsers
