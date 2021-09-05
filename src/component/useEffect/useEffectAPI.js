@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-import GithubUsers from "./Data/dataUsers";
+import DataUsers from "./Data/dataUsers";
 
 const UseEffectAPI = () => {
 
@@ -23,7 +23,7 @@ const UseEffectAPI = () => {
 
     return (
         <>
-            <GithubUsers users={users}/>
+            <DataUsers users={users}/>
         </>
     )
 }
